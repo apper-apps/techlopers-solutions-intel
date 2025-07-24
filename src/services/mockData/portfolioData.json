@@ -1,0 +1,230 @@
+[
+  {
+    "Id": 1,
+    "title": "Enterprise E-commerce Platform",
+    "description": "Comprehensive e-commerce solution built with React and Node.js, featuring advanced inventory management, payment processing, and analytics dashboard.",
+    "serviceType": "Software Development",
+    "industry": "Retail",
+    "technologies": ["React", "Node.js", "MongoDB", "Stripe", "AWS"],
+    "completedDate": "2024-01-15",
+    "duration": "6 months",
+    "clientName": "TechMart Solutions",
+    "status": "Completed",
+    "imageUrl": "/projects/ecommerce-platform.jpg",
+    "features": [
+      "Multi-vendor marketplace",
+      "Real-time inventory tracking",
+      "Advanced analytics",
+      "Mobile-responsive design"
+    ]
+  },
+  {
+    "Id": 2,
+    "title": "Healthcare Management System",
+    "description": "Cloud-based healthcare management platform with patient records, appointment scheduling, and telemedicine capabilities.",
+    "serviceType": "Cloud Solutions",
+    "industry": "Healthcare",
+    "technologies": ["Azure", "React", "C#", ".NET Core", "SQL Server"],
+    "completedDate": "2023-11-20",
+    "duration": "8 months",
+    "clientName": "MediCare Plus",
+    "status": "Completed",
+    "imageUrl": "/projects/healthcare-system.jpg",
+    "features": [
+      "Patient portal",
+      "Telemedicine integration",
+      "HIPAA compliance",
+      "Automated billing"
+    ]
+  },
+  {
+    "Id": 3,
+    "title": "Financial Security Audit",
+    "description": "Comprehensive cybersecurity assessment and implementation for a major financial institution, including penetration testing and compliance management.",
+    "serviceType": "Cybersecurity",
+    "industry": "Finance",
+    "technologies": ["SIEM", "Firewall", "Multi-factor Authentication", "Encryption"],
+    "completedDate": "2024-02-10",
+    "duration": "4 months",
+    "clientName": "SecureBank Corp",
+    "status": "Completed",
+    "imageUrl": "/projects/security-audit.jpg",
+    "features": [
+      "Vulnerability assessment",
+      "Security policy implementation",
+      "Staff training program",
+      "24/7 monitoring setup"
+    ]
+  },
+  {
+    "Id": 4,
+    "title": "Manufacturing Infrastructure Upgrade",
+    "description": "Complete IT infrastructure overhaul for manufacturing facility, including network redesign, server migration, and disaster recovery implementation.",
+    "serviceType": "IT Infrastructure",
+    "industry": "Manufacturing",
+    "technologies": ["Windows Server", "VMware", "Cisco", "Active Directory"],
+    "completedDate": "2023-12-05",
+    "duration": "5 months",
+    "clientName": "IndustrialWorks Inc",
+    "status": "Completed",
+    "imageUrl": "/projects/infrastructure-upgrade.jpg",
+    "features": [
+      "Network redesign",
+      "Server virtualization",
+      "Backup solutions",
+      "Remote access setup"
+    ]
+  },
+  {
+    "Id": 5,
+    "title": "Education Digital Transformation",
+    "description": "Digital transformation initiative for educational institution, implementing learning management system and process automation.",
+    "serviceType": "Digital Transformation",
+    "industry": "Education",
+    "technologies": ["Moodle", "RPA", "Microsoft 365", "Power BI"],
+    "completedDate": "2024-03-01",
+    "duration": "7 months",
+    "clientName": "Global University",
+    "status": "Completed",
+    "imageUrl": "/projects/education-transform.jpg",
+    "features": [
+      "LMS implementation",
+      "Process automation",
+      "Student portal",
+      "Analytics dashboard"
+    ]
+  },
+  {
+    "Id": 6,
+    "title": "Retail Technology Strategy",
+    "description": "Comprehensive IT consulting project to develop technology roadmap and optimize IT investments for retail chain expansion.",
+    "serviceType": "IT Consulting",
+    "industry": "Retail",
+    "technologies": ["ITIL", "Project Management Tools", "Agile", "DevOps"],
+    "completedDate": "2023-10-15",
+    "duration": "3 months",
+    "clientName": "RetailMax Chain",
+    "status": "Completed",
+    "imageUrl": "/projects/retail-strategy.jpg",
+    "features": [
+      "Technology assessment",
+      "Strategic planning",
+      "Vendor evaluation",
+      "Implementation roadmap"
+    ]
+  },
+  {
+    "Id": 7,
+    "title": "Mobile Banking Application",
+    "description": "Secure mobile banking app with biometric authentication, real-time transactions, and advanced fraud detection mechanisms.",
+    "serviceType": "Software Development",
+    "industry": "Finance",
+    "technologies": ["Flutter", "Node.js", "PostgreSQL", "Firebase", "Biometrics"],
+    "completedDate": "2024-01-30",
+    "duration": "9 months",
+    "clientName": "CommunityBank",
+    "status": "Completed",
+    "imageUrl": "/projects/mobile-banking.jpg",
+    "features": [
+      "Biometric authentication",
+      "Real-time notifications",
+      "Fraud detection",
+      "Cross-platform support"
+    ]
+  },
+  {
+    "Id": 8,
+    "title": "Government Cloud Migration",
+    "description": "Large-scale cloud migration project for government agency, ensuring compliance with security regulations and data sovereignty requirements.",
+    "serviceType": "Cloud Solutions",
+    "industry": "Government",
+    "technologies": ["AWS GovCloud", "Terraform", "Kubernetes", "Docker"],
+    "completedDate": "2023-09-25",
+    "duration": "12 months",
+    "clientName": "State Department",
+    "status": "Completed",
+    "imageUrl": "/projects/gov-cloud.jpg",
+    "features": [
+      "Compliance adherence",
+      "Data sovereignty",
+      "High availability",
+      "Disaster recovery"
+    ]
+  },
+  {
+    "Id": 9,
+    "title": "Energy Sector Security Implementation",
+    "description": "Critical infrastructure protection for energy company, implementing advanced threat detection and incident response capabilities.",
+    "serviceType": "Cybersecurity",
+    "industry": "Energy",
+    "technologies": ["Industrial IoT Security", "SCADA Protection", "SIEM", "IDS/IPS"],
+    "completedDate": "2024-02-28",
+    "duration": "6 months",
+    "clientName": "PowerGrid Solutions",
+    "status": "Completed",
+    "imageUrl": "/projects/energy-security.jpg",
+    "features": [
+      "Critical infrastructure protection",
+      "Threat intelligence",
+      "Incident response",
+      "Compliance monitoring"
+    ]
+  },
+  {
+    "Id": 10,
+    "title": "Logistics Network Infrastructure",
+    "description": "Nationwide IT infrastructure deployment for logistics company, including warehouse management systems and tracking solutions.",
+    "serviceType": "IT Infrastructure",
+    "industry": "Logistics",
+    "technologies": ["Linux", "Docker", "MongoDB", "RFID", "GPS Tracking"],
+    "completedDate": "2023-11-10",
+    "duration": "10 months",
+    "clientName": "FastTrack Logistics",
+    "status": "Completed",
+    "imageUrl": "/projects/logistics-infrastructure.jpg",
+    "features": [
+      "Warehouse management",
+      "Real-time tracking",
+      "Route optimization",
+      "Inventory automation"
+    ]
+  },
+  {
+    "Id": 11,
+    "title": "Healthcare Digital Innovation",
+    "description": "Comprehensive digital transformation for hospital network, implementing AI-powered diagnostics and automated patient care workflows.",
+    "serviceType": "Digital Transformation",
+    "industry": "Healthcare",
+    "technologies": ["AI/ML", "IoT", "Blockchain", "RPA", "Big Data"],
+    "completedDate": "2024-04-15",
+    "duration": "14 months",
+    "clientName": "Regional Medical Center",
+    "status": "In Progress",
+    "imageUrl": "/projects/healthcare-innovation.jpg",
+    "features": [
+      "AI diagnostics",
+      "Patient workflow automation",
+      "Blockchain medical records",
+      "Predictive analytics"
+    ]
+  },
+  {
+    "Id": 12,
+    "title": "Manufacturing IT Strategy",
+    "description": "Strategic IT consulting for manufacturing conglomerate, focusing on Industry 4.0 adoption and operational efficiency optimization.",
+    "serviceType": "IT Consulting",
+    "industry": "Manufacturing",
+    "technologies": ["Industry 4.0", "IoT", "ERP", "MES", "Analytics"],
+    "completedDate": "2024-03-20",
+    "duration": "4 months",
+    "clientName": "GlobalManufacturing Corp",
+    "status": "Completed",
+    "imageUrl": "/projects/manufacturing-strategy.jpg",
+    "features": [
+      "Industry 4.0 roadmap",
+      "Process optimization",
+      "Technology integration",
+      "Performance metrics"
+    ]
+  }
+]

@@ -3,16 +3,18 @@ import { ToastContainer } from "react-toastify";
 import Layout from "@/components/organisms/Layout";
 import Home from "@/components/pages/Home";
 import Services from "@/components/pages/Services";
+import Portfolio from "@/components/pages/Portfolio";
 import About from "@/components/pages/About";
 import Contact from "@/components/pages/Contact";
 
 function App() {
   return (
     <>
-      <Routes>
+<Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="services" element={<Services />} />
+          <Route path="portfolio" element={<Portfolio />} />
           <Route path="about" element={<About />} />
           <Route path="contact" element={<Contact />} />
         </Route>
