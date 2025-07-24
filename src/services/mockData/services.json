@@ -1,0 +1,86 @@
+[
+  {
+    "Id": 1,
+    "title": "Software Development",
+    "description": "Custom software solutions tailored to your business needs with modern technologies and agile methodologies.",
+    "icon": "Code",
+    "features": [
+      "Web Application Development",
+      "Mobile App Development",
+      "Desktop Application Development",
+      "API Development & Integration",
+      "Legacy System Modernization"
+    ],
+    "technologies": ["React", "Node.js", "Python", "Java", ".NET", "Flutter"]
+  },
+  {
+    "Id": 2,
+    "title": "Cloud Solutions",
+    "description": "Scalable cloud infrastructure and migration services to enhance your business agility and reduce costs.",
+    "icon": "Cloud",
+    "features": [
+      "Cloud Migration Services",
+      "Infrastructure as Code",
+      "DevOps & CI/CD Pipeline",
+      "Cloud Security & Compliance",
+      "24/7 Cloud Monitoring"
+    ],
+    "technologies": ["AWS", "Azure", "Google Cloud", "Docker", "Kubernetes"]
+  },
+  {
+    "Id": 3,
+    "title": "Cybersecurity",
+    "description": "Comprehensive security solutions to protect your digital assets and ensure business continuity.",
+    "icon": "Shield",
+    "features": [
+      "Security Assessment & Audit",
+      "Penetration Testing",
+      "Security Implementation",
+      "Compliance Management",
+      "Incident Response"
+    ],
+    "technologies": ["SIEM", "Firewall", "Encryption", "Multi-factor Authentication"]
+  },
+  {
+    "Id": 4,
+    "title": "IT Infrastructure",
+    "description": "Robust IT infrastructure solutions designed to support your business operations and growth.",
+    "icon": "Server",
+    "features": [
+      "Network Design & Setup",
+      "Server Management",
+      "Database Administration",
+      "Backup & Disaster Recovery",
+      "IT Support & Maintenance"
+    ],
+    "technologies": ["Windows Server", "Linux", "VMware", "Hyper-V", "Active Directory"]
+  },
+  {
+    "Id": 5,
+    "title": "Digital Transformation",
+    "description": "Strategic digital transformation services to modernize your business processes and technology stack.",
+    "icon": "Zap",
+    "features": [
+      "Process Automation",
+      "Digital Strategy Consulting",
+      "Technology Roadmap",
+      "Change Management",
+      "Training & Support"
+    ],
+    "technologies": ["RPA", "AI/ML", "IoT", "Blockchain", "Big Data Analytics"]
+  },
+  {
+    "Id": 6,
+    "title": "IT Consulting",
+    "description": "Expert IT consulting services to help you make informed technology decisions and optimize your IT investments.",
+    "icon": "Users",
+    "features": [
+      "Technology Assessment",
+      "Strategic Planning",
+      "Vendor Selection",
+      "Project Management",
+      "Performance Optimization"
+    ],
+    "technologies": ["ITIL", "Agile", "Scrum", "DevOps", "Project Management Tools"]
+  }
+]
