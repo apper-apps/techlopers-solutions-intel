@@ -6,15 +6,29 @@
     "icon": "Code",
     "features": [
       "Web Application Development",
-      "Mobile App Development",
       "Desktop Application Development",
-      "API Development & Integration",
-      "Legacy System Modernization"
+      "Legacy System Modernization",
+      "Custom Software Architecture",
+      "Code Review & Optimization"
     ],
-    "technologies": ["React", "Node.js", "Python", "Java", ".NET", "Flutter"]
+    "technologies": ["React", "Node.js", "Python", "Java", ".NET", "Angular"]
   },
   {
     "Id": 2,
+    "title": "Mobile App Development",
+    "description": "Native and cross-platform mobile applications that deliver exceptional user experiences across all devices.",
+    "icon": "Smartphone",
+    "features": [
+      "iOS App Development",
+      "Android App Development",
+      "Cross-Platform Solutions",
+      "App Store Optimization",
+      "Mobile UI/UX Design"
+    ],
+    "technologies": ["Flutter", "React Native", "Swift", "Kotlin", "Xamarin"]
+  },
+  {
+    "Id": 3,
     "title": "Cloud Solutions",
     "description": "Scalable cloud infrastructure and migration services to enhance your business agility and reduce costs.",
     "icon": "Cloud",
@@ -28,7 +42,35 @@
     "technologies": ["AWS", "Azure", "Google Cloud", "Docker", "Kubernetes"]
   },
   {
-    "Id": 3,
+    "Id": 4,
+    "title": "E-commerce Development",
+    "description": "Comprehensive e-commerce solutions that drive sales and provide seamless shopping experiences.",
+    "icon": "ShoppingCart",
+    "features": [
+      "Custom E-commerce Platforms",
+      "Payment Gateway Integration",
+      "Inventory Management Systems",
+      "Multi-vendor Marketplaces",
+      "Mobile Commerce Solutions"
+    ],
+    "technologies": ["Shopify", "WooCommerce", "Magento", "BigCommerce", "React"]
+  },
+  {
+    "Id": 5,
+    "title": "Enterprise Software Development",
+    "description": "Scalable enterprise applications designed to streamline business processes and improve operational efficiency.",
+    "icon": "Building",
+    "features": [
+      "ERP System Development",
+      "CRM Solutions",
+      "Workflow Automation",
+      "Enterprise Integration",
+      "Scalable Architecture Design"
+    ],
+    "technologies": ["Java", ".NET", "Oracle", "SAP", "Microsoft Dynamics"]
+  },
+  {
+    "Id": 6,
     "title": "Cybersecurity",
     "description": "Comprehensive security solutions to protect your digital assets and ensure business continuity.",
     "icon": "Shield",
@@ -42,7 +84,21 @@
     "technologies": ["SIEM", "Firewall", "Encryption", "Multi-factor Authentication"]
   },
   {
-    "Id": 4,
+    "Id": 7,
+    "title": "Cloud Migration",
+    "description": "Seamless migration of your existing infrastructure to cloud platforms with minimal downtime and maximum efficiency.",
+    "icon": "Upload",
+    "features": [
+      "Infrastructure Assessment",
+      "Migration Planning & Strategy",
+      "Data Migration Services",
+      "Application Modernization",
+      "Post-Migration Support"
+    ],
+    "technologies": ["AWS Migration Hub", "Azure Migrate", "CloudEndure", "VMware"]
+  },
+  {
+    "Id": 8,
     "title": "IT Infrastructure",
     "description": "Robust IT infrastructure solutions designed to support your business operations and growth.",
     "icon": "Server",
@@ -56,7 +112,35 @@
     "technologies": ["Windows Server", "Linux", "VMware", "Hyper-V", "Active Directory"]
   },
   {
-    "Id": 5,
+    "Id": 9,
+    "title": "Big Data Analytics",
+    "description": "Transform your data into actionable insights with advanced analytics and machine learning solutions.",
+    "icon": "BarChart3",
+    "features": [
+      "Data Warehouse Design",
+      "ETL Pipeline Development",
+      "Real-time Analytics",
+      "Predictive Modeling",
+      "Data Visualization"
+    ],
+    "technologies": ["Apache Spark", "Hadoop", "Tableau", "Power BI", "Python"]
+  },
+  {
+    "Id": 10,
+    "title": "Microservices Architecture",
+    "description": "Design and implement scalable microservices architectures for improved system flexibility and maintainability.",
+    "icon": "Network",
+    "features": [
+      "Service Design & Planning",
+      "API Gateway Implementation",
+      "Container Orchestration",
+      "Service Mesh Configuration",
+      "Monitoring & Logging"
+    ],
+    "technologies": ["Docker", "Kubernetes", "Spring Boot", "Node.js", "Istio"]
+  },
+  {
+    "Id": 11,
     "title": "Digital Transformation",
     "description": "Strategic digital transformation services to modernize your business processes and technology stack.",
     "icon": "Zap",
@@ -70,7 +154,105 @@
     "technologies": ["RPA", "AI/ML", "IoT", "Blockchain", "Big Data Analytics"]
   },
   {
-    "Id": 6,
+    "Id": 12,
+    "title": "Business Intelligence",
+    "description": "Comprehensive BI solutions that provide deep insights into your business performance and market trends.",
+    "icon": "TrendingUp",
+    "features": [
+      "Dashboard Development",
+      "Report Automation",
+      "KPI Monitoring",
+      "Data Mining",
+      "Performance Analytics"
+    ],
+    "technologies": ["Power BI", "Tableau", "QlikView", "Looker", "SQL Server"]
+  },
+  {
+    "Id": 13,
+    "title": "Serverless Computing",
+    "description": "Build and deploy applications using serverless architecture for cost-effective and scalable solutions.",
+    "icon": "Layers",
+    "features": [
+      "Function-as-a-Service Development",
+      "Event-Driven Architecture",
+      "Auto-scaling Solutions",
+      "Cost Optimization",
+      "Serverless Monitoring"
+    ],
+    "technologies": ["AWS Lambda", "Azure Functions", "Google Cloud Functions", "Serverless Framework"]
+  },
+  {
+    "Id": 14,
+    "title": "Data Science & ML",
+    "description": "Advanced data science and machine learning solutions to unlock the power of your data and automate decision-making.",
+    "icon": "Brain",
+    "features": [
+      "Machine Learning Model Development",
+      "AI Algorithm Implementation",
+      "Natural Language Processing",
+      "Computer Vision Solutions",
+      "Predictive Analytics"
+    ],
+    "technologies": ["Python", "TensorFlow", "PyTorch", "Scikit-learn", "R"]
+  },
+  {
+    "Id": 15,
+    "title": "API Development & Integration",
+    "description": "Design, develop, and integrate robust APIs that enable seamless communication between systems and applications.",
+    "icon": "Link",
+    "features": [
+      "RESTful API Development",
+      "GraphQL Implementation",
+      "Third-party Integrations",
+      "API Security & Authentication",
+      "API Documentation & Testing"
+    ],
+    "technologies": ["Node.js", "Express", "FastAPI", "Postman", "Swagger"]
+  },
+  {
+    "Id": 16,
+    "title": "DevOps Services",
+    "description": "Streamline your development and deployment processes with comprehensive DevOps solutions and automation.",
+    "icon": "GitBranch",
+    "features": [
+      "CI/CD Pipeline Setup",
+      "Infrastructure Automation",
+      "Containerization",
+      "Monitoring & Alerting",
+      "Performance Optimization"
+    ],
+    "technologies": ["Jenkins", "GitLab CI", "Ansible", "Terraform", "Prometheus"]
+  },
+  {
+    "Id": 17,
+    "title": "Quality Assurance & Testing",
+    "description": "Comprehensive testing services to ensure your software applications are reliable, secure, and performant.",
+    "icon": "CheckCircle",
+    "features": [
+      "Automated Testing Solutions",
+      "Performance Testing",
+      "Security Testing",
+      "User Acceptance Testing",
+      "Test Strategy & Planning"
+    ],
+    "technologies": ["Selenium", "Cypress", "JMeter", "Jest", "TestRail"]
+  },
+  {
+    "Id": 18,
+    "title": "IT Project Management",
+    "description": "Expert project management services to ensure successful delivery of your IT initiatives on time and within budget.",
+    "icon": "Calendar",
+    "features": [
+      "Project Planning & Scheduling",
+      "Resource Management",
+      "Risk Assessment & Mitigation",
+      "Stakeholder Communication",
+      "Quality Assurance"
+    ],
+    "technologies": ["JIRA", "Microsoft Project", "Asana", "Trello", "Slack"]
+  },
+  {
+    "Id": 19,
     "title": "IT Consulting",
     "description": "Expert IT consulting services to help you make informed technology decisions and optimize your IT investments.",
     "icon": "Users",
@@ -78,9 +260,37 @@
       "Technology Assessment",
       "Strategic Planning",
       "Vendor Selection",
-      "Project Management",
-      "Performance Optimization"
+      "Performance Optimization",
+      "Digital Strategy Development"
     ],
     "technologies": ["ITIL", "Agile", "Scrum", "DevOps", "Project Management Tools"]
+  },
+  {
+    "Id": 20,
+    "title": "IT Audit & Compliance",
+    "description": "Comprehensive IT audit and compliance services to ensure your systems meet industry standards and regulations.",
+    "icon": "FileCheck",
+    "features": [
+      "Security Compliance Audits",
+      "Risk Assessment",
+      "Compliance Reporting",
+      "Policy Development",
+      "Regulatory Adherence"
+    ],
+    "technologies": ["GDPR", "HIPAA", "SOX", "PCI DSS", "ISO 27001"]
+  },
+  {
+    "Id": 21,
+    "title": "Disaster Recovery Planning",
+    "description": "Comprehensive disaster recovery and business continuity planning to protect your business from unexpected disruptions.",
+    "icon": "LifeBuoy",
+    "features": [
+      "Business Impact Analysis",
+      "Recovery Strategy Development",
+      "Backup Solutions Implementation",
+      "Crisis Management Planning",
+      "Regular Testing & Updates"
+    ],
+    "technologies": ["Veeam", "CommVault", "AWS Backup", "Azure Backup", "VMware vSphere"]
   }
 ]
