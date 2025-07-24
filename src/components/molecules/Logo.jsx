@@ -12,7 +12,7 @@ const Logo = ({ className = "" }) => {
       >
         <div className="relative">
           <img 
-            src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.justdial.com%2FDelhi%2FOnline-Branding-in-Nehru-Place%2Fnct-10887645%2Fpage-5&psig=AOvVaw32KLrDdEBkCHzmFUT1ACRB&ust=1753460690137000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCJidscH01Y4DFQAAAAAdAAAAABAE"
+            src="https://content.jdmagicbox.com/v2/comp/delhi/k4/011pxx11.xx11.160322121532.x7k4/catalogue/techlopers-solutions-pvt-ltd-laxmi-nagar-delhi-logo-designers-ucan4jlj72.jpg"
             alt="Techlopers Solutions Logo"
             className="w-10 h-10 object-contain rounded-lg shadow-lg"
           />
