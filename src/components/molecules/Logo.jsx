@@ -14,7 +14,7 @@ const Logo = ({ className = "" }) => {
           <img 
             src="https://content.jdmagicbox.com/v2/comp/delhi/k4/011pxx11.xx11.160322121532.x7k4/catalogue/techlopers-solutions-pvt-ltd-laxmi-nagar-delhi-logo-designers-ucan4jlj72.jpg"
             alt="Techlopers Solutions Logo"
-            className="w-10 h-10 object-contain rounded-lg shadow-lg"
+            className="w-20 h-10 object-contain rounded-lg shadow-lg"
           />
         </div>
         <div className="flex flex-col">
