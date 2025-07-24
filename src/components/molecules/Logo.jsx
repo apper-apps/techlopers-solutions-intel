@@ -1,31 +1,32 @@
 import { motion } from "framer-motion";
-import ApperIcon from "@/components/ApperIcon";
+import { Link } from "react-router-dom";
 
 const Logo = ({ className = "" }) => {
   return (
-    <motion.div 
-      className={`flex items-center space-x-3 ${className}`}
-      initial={{ opacity: 0, x: -20 }}
-      animate={{ opacity: 1, x: 0 }}
-      transition={{ duration: 0.5 }}
-    >
-      <div className="relative">
-        <div className="w-10 h-10 bg-gradient-to-br from-primary to-accent rounded-lg flex items-center justify-center shadow-lg">
-          <ApperIcon name="Code" className="w-6 h-6 text-white" />
+    <Link to="/">
+      <motion.div 
+        className={`flex items-center space-x-3 cursor-pointer hover:opacity-80 transition-opacity ${className}`}
+        initial={{ opacity: 0, x: -20 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ duration: 0.5 }}
+      >
+        <div className="relative">
+          <img 
+            src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.justdial.com%2FDelhi%2FOnline-Branding-in-Nehru-Place%2Fnct-10887645%2Fpage-5&psig=AOvVaw32KLrDdEBkCHzmFUT1ACRB&ust=1753460690137000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCJidscH01Y4DFQAAAAAdAAAAABAE"
+            alt="Techlopers Solutions Logo"
+            className="w-10 h-10 object-contain rounded-lg shadow-lg"
+          />
         </div>
-        <div className="absolute -top-1 -right-1 w-4 h-4 bg-secondary rounded-full flex items-center justify-center">
-          <ApperIcon name="Zap" className="w-2 h-2 text-white" />
+        <div className="flex flex-col">
+          <span className="text-xl font-bold text-gray-800 font-display">
+            Techlopers
+          </span>
+          <span className="text-xs text-primary font-medium -mt-1">
+            Solutions
+          </span>
         </div>
-      </div>
-      <div className="flex flex-col">
-        <span className="text-xl font-bold text-gray-800 font-display">
-          Techlopers
-        </span>
-        <span className="text-xs text-primary font-medium -mt-1">
-          Solutions
-        </span>
-      </div>
-    </motion.div>
+      </motion.div>
+    </Link>
   );
 };
 
