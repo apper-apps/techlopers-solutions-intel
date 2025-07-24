@@ -6,13 +6,14 @@ import Loading from "@/components/ui/Loading";
 import Error from "@/components/ui/Error";
 import Empty from "@/components/ui/Empty";
 import ApperIcon from "@/components/ApperIcon";
+import QuoteRequestModal from "@/components/molecules/QuoteRequestModal";
 import { getAllServices } from "@/services/api/serviceService";
 
 const Services = () => {
   const [services, setServices] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
-
+  const [showQuoteModal, setShowQuoteModal] = useState(false);
   useEffect(() => {
     loadServices();
   }, []);
@@ -63,10 +64,25 @@ const Services = () => {
             <h1 className="text-4xl md:text-5xl font-black text-gray-900 font-display mb-6">
               Our <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">Services</span>
             </h1>
-            <p className="text-xl text-gray-600 max-w-4xl mx-auto font-body leading-relaxed">
+<p className="text-xl text-gray-600 max-w-4xl mx-auto font-body leading-relaxed">
               Comprehensive IT solutions designed to accelerate your business growth and digital transformation journey. 
               From software development to cloud migration, we have the expertise to deliver exceptional results.
             </p>
+            
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.3 }}
+              className="mt-8"
+            >
+              <button
+                onClick={() => setShowQuoteModal(true)}
+                className="bg-gradient-to-r from-primary to-accent text-white px-8 py-4 rounded-xl font-semibold text-lg shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 flex items-center gap-3 mx-auto"
+              >
+                <ApperIcon name="FileText" className="w-5 h-5" />
+                Get Custom Quote
+              </button>
+            </motion.div>
           </motion.div>
         </div>
       </section>
@@ -209,8 +225,15 @@ const Services = () => {
               </motion.div>
             ))}
           </div>
-        </div>
+</div>
       </section>
+      
+      {/* Quote Request Modal */}
+      <QuoteRequestModal 
+        isOpen={showQuoteModal}
+        onClose={() => setShowQuoteModal(false)}
+        services={services}
+      />
     </div>
   );
 };
